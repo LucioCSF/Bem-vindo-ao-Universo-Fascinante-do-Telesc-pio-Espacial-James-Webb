@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site - Vídeo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Times', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('Video/BackGround.jpg');
+            /* Cor de fundo da página */
+            color: #ffffff;
+            /* Cor do texto */
+        }
+
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        section h2 {
+            font-family: 'Times', sans-serif;
+            /* Altera a fonte do título */
+            font-size: 28px;
+            /* Altera o tamanho da fonte do título */
+            color: #ffffff;
+            /* Cor do texto */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo à Página de Video</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="imagens.html">Imagens</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="video.html">Vídeo</a></li>
+                <li><a href="links.html">Links - Referência</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Vídeo - Desvendando os Mistérios dos Buracos Negros no Universo!</h2>
+
+        <!-- Inserir o vídeo aqui -->
+        <video width="640" height="360" controls>
+            <source
+                src="C:\Users\lucio\OneDrive\Documentos\PRGWEB\Video\Telescópio James Webb acaba de capturar a primeira imagem real de dentro de um buraco negro.mp4"
+                type="video/mp4">
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Projeto desenvolvido por Lucio Costa da Silva Filho para a disciplina de Programação Web, curso
+            de Engenharia da Computação, Universidade do Estado de Minas Gerais (UEMG)</p>
+    </footer>
+</body>
+
+</html>

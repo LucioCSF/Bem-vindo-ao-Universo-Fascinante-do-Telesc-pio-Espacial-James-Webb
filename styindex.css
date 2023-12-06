@@ -1,0 +1,39 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: 'Times', sans-serif; /* Altera a fonte do texto do link */
+    font-size: 22px; /* Altera o tamanho da fonte do texto do link */
+    color: #080808; /* Cor do texto do link */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+}
+
+nav ul li a:hover {
+    color: #fc0404; /* Altera a cor do texto do link ao passar o mouse sobre ele */
+}
+
+section {
+    padding: 20px;
+    text-align: justify;
+    margin: 100px; /* Adiciona margens automáticas para centralizar horizontalmente */
+    max-width: 2000px; /* Define uma largura máxima para melhor legibilidade */
+}
+section h2 {
+    font-family: 'Times', sans-serif; /* Altera a fonte do título */
+    font-size: 28px; /* Altera o tamanho da fonte do título */
+    color: #333; /* Cor do texto */
+}
+
+section p {
+    font-family: 'Times', sans-serif; /* Altera a fonte do texto */
+    font-size: 24px; /* Altera o tamanho da fonte do texto */
+    color: #555; /* Cor do texto */
+}
